@@ -1,0 +1,89 @@
+
+.back-image_alumni{
+       height:22vh;
+    }
+   
+    /* alumni details section */
+    .meet_our_alumni h1{
+     color:white;
+     font-weight: 900;
+   
+
+    }
+    .left-alumni{
+        background-color: black;
+        color:white;
+    }
+    .alumni-profile{
+        margin: 30px 0;
+        border-bottom: 2px solid aqua;
+        padding: 10px;
+    }
+    .alumni-profile img{
+        height: 150px;
+        width:150px;
+        border-radius: 50%;
+        margin: auto;
+
+    }
+    .alumni-name h4,.alumni-passingYear h4,.contactus h4{
+        color:grey;
+    }
+    .text_color_alumni{
+        margin-left: 20px;
+    }
+    .text_color_alumni h4{
+color:grey;
+    }
+    .text_color_alumni h3{
+        color:white;
+            }
+
+  .about_details_ofAlumni{
+    background-color: rgba(0,0,0,0.7);
+   
+  }          
+  .icon_of_Alumni_social i{
+    font-size: 22px;
+  }
+  /* searchbar section */
+
+  .bg_set{
+    background-color: black;
+  }
+  .bg_set div h4{
+    color:white;
+    font-weight: 700;
+    line-height: 40px;
+    animation: noneBlock 1s infinite alternate ;
+  }
+  @keyframes noneBlock {
+    to{
+opacity:1;
+
+    }from{
+opacity:0;
+
+    }
+  }
+  .search_Alumni input{
+    width:70%;
+    margin: auto;
+    height: 40px !important;
+
+  }
+
+  .search_Alumni input{
+    background-image: url('../../images/Alumni/searchIcon.png');
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position: 100% 0px;
+  }
+  .search_Alumni input::placeholder{
+    color:black;
+    font-size: larger;
+  }
+
+  .borderSet,.borderSet2{
+   box-shadow:  10px 10px 50px rgb(28, 10, 44);
+  }

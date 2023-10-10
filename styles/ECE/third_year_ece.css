@@ -1,0 +1,60 @@
+a{
+    text-decoration: none;
+    color:white;
+}
+.heading h1{
+    font-family: "Segoe UI",Arial,sans-serif;
+    color:white;
+    font-weight: 50px;
+    font-weight: 700;
+}
+.img_set{
+    /* max-width:370px; */
+    width:100%;
+    height:250px;
+    position: relative;
+}
+.img_set .sub{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px 20px 0 0;
+
+}
+.img_set #sub_logo{
+    position: absolute;
+    height: 50px;
+    width:50px;
+    top:-15px;
+    right:-10px;
+}
+.content_courses{
+    background-color: black;
+    padding: 10px;
+   min-height: 150px !important;
+    border-radius: 0px 0px 20px 20px;
+}
+.content_courses h1{
+    font-family: "Segoe UI",Arial,sans-serif;
+    color:white !important;
+    
+}
+.content_courses p{
+    font-family: "Segoe UI",Arial,sans-serif;
+    color:grey;
+}
+.content_courses:hover p{
+    color:green !important;
+}
+.courses_ece{
+    border: 2px solid white;
+    border-radius: 20px !important;
+    margin:20px 10px !important;
+    transition: all 0.4s;
+}
+.courses_ece:hover{
+    box-shadow: 20px -20px 30px rgb(6, 6, 19);
+}
+
+.courses_ece:hover .content_courses h3,.content_courses p{
+    color:blue !important;
+} 

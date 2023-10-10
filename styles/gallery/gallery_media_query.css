@@ -1,0 +1,11 @@
+@media screen and (max-width:767px){
+    .image_gallery div img{
+        width:100%;
+            }
+}
+
+@media screen and (max-width:425px){
+    .search_gallery{
+        width:100% !important;
+            }
+}

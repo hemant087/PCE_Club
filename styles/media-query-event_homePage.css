@@ -1,0 +1,154 @@
+@media screen and (max-width:1399px) {
+    .event-image,.event-content{
+        width:200px;
+        height:220px;
+       
+     }
+     .video_event{
+        height: 500px;
+        width:700px;
+    }
+   .video-content{
+    width:700px;
+   }
+   .video-heading h1{
+    font-size: 1.5rem;
+   }
+   .video-content-b p{
+    font-size: 1rem;
+   }
+}
+
+@media screen and (max-width:1250px) {
+    .event-image,.event-content{
+        width:150px;
+        height:170px;
+       
+     }
+
+     .event-content h4{
+        margin-top: 2px;
+       font-size: 1rem;
+        margin-bottom: 20px;
+       
+        padding:10px;
+        
+        
+         } 
+         .event-content h5{
+               font-size: 0.9rem;
+         }
+
+     .video_event{
+        height: 400px;
+        width:600px;
+    }
+   .video-content{
+    width:600px;
+   }
+   .video-heading h1{
+    font-size: 1.2rem;
+   }
+   .video-content-b p{
+    font-size: 0.76rem;
+   }
+}
+
+@media screen and (max-width:1089px){
+    .video_event{
+        height: 350px;
+        width:550px;
+    }
+   .video-content{
+    width:550px;
+   }
+   .video-heading h1{
+    font-size: 1.2rem;
+   }
+   .video-content-b p{
+    font-size: 0.78rem;
+   }
+}
+@media screen and (max-width:991px){
+.event-box-at991{
+   
+  margin: 20px 0;
+   transform: translateX(10%);
+}
+
+.event-image,.event-content{
+    width:100% !important;
+    height:270px;
+   
+ }
+.at991none{
+    display:none !important;
+}
+
+.video_event{
+    margin: auto;
+    width:100% !important;
+}
+.video-content{
+    width:100% !important;
+}
+.at991marginTop{
+    margin-top: 100px;
+}
+}
+
+@media screen and (max-width:767px){
+    .event-box-at991{
+       
+      margin: 20px 0;
+       transform: translateX(1%);
+    }
+    
+    .event-image,.event-content{
+        width:100% !important;
+        height:270px;
+       
+     }
+    .at991none{
+        display:none !important;
+    }
+    }
+
+    @media screen and (max-width:425px) {
+        .event-image,.event-content{
+            width:100% !important;
+            height:150px;
+           
+         }
+        }
+
+
+        @media screen and (max-width:425px) {
+
+            .event-box-at991{
+       
+                margin:20px auto !important;
+                
+              }
+
+            .event-image,.event-content{
+                width:100% !important;
+                height:150px;
+            
+               
+             }
+            
+        }
+
+    @media screen and (max-width:360px) {
+        .event-image,.event-content{
+            width:90% !important;
+            height:150px;
+        
+           
+         }
+         .video-content,.video_event{
+            width:90% !important;
+            margin:10px auto;
+         }
+        }

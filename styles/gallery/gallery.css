@@ -1,0 +1,102 @@
+.back-image_gallery{
+  
+    background-image:url(../../images/gallery/gallery_bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment:fixed;
+    background-size:cover;
+       height:100vh;
+    opacity: 0.9;   
+    position: relative; 
+    overflow: hidden;
+    
+  
+    }
+
+    .heading_gallery h1{
+       color:white;
+   
+        font-weight: bolder;
+        
+    }
+    .search_gallery{
+       margin: auto !important;
+        width:70% !important
+    }
+    .search_gallery input,span{
+        height:50px;
+        border:0 !important;
+        outline:none !important;
+        color:purple;
+        font-size: larger;
+        outline: 1px solid purple;
+        cursor: pointer;
+
+    }
+    .search_gallery span{
+        background-image: linear-gradient(to left,purple,red);
+        color:white !important;
+    }
+    ::placeholder{
+        color:purple !important;
+        font-size: larger !important;
+        
+    }
+    /* image gallery */
+    .image_gallery div img{
+height:250px;
+width:95%;
+margin: 20px 0;
+transition: all 0.3s;
+    }
+    .image_gallery div img:hover{
+        transform: scale(1.4) ;
+       
+    }
+
+    .full_image{
+        width:100%;
+        height: 100vh;
+        background-color: rgba(0,0,0,0.8);
+        position: fixed;
+        top:0;
+        left:12px;
+        display:none;
+        align-items: center;
+        justify-content: center;
+        z-index: 9;
+    }
+
+    .full_image .fixed_img{
+       
+max-width:700px;
+max-height: 500px;
+
+position: relative;
+        }
+        .full_image .fixed_img img{
+         width: 100%;
+         max-height: 500px;
+        }
+        .full_image span{
+            position: fixed;
+            top:35px;
+            left:60px;
+            font-size: 30px;
+            color:#fff;
+        
+            cursor: pointer;
+          
+        }
+        .fixed_img i{
+            color:white;
+            font-size: 45px;
+            z-index: 99999;
+            position: absolute;
+           bottom:0;
+           right:20px;
+           
+        }
+        .full_image i:hover{
+            color:yellow;
+        }

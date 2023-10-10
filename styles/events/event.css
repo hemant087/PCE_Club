@@ -1,0 +1,61 @@
+
+.back-image_event{
+  
+    background-image:url(../../images/Event/event_bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment:fixed;
+    background-size:cover;
+       height:100vh;
+    opacity: 0.9;   
+    position: relative; 
+    overflow: hidden;
+    
+   
+    }
+   
+
+    .header-a marquee{
+        background: transparent;
+       color:white;
+       font-weight: 900;
+       z-index: -1;
+    }
+
+    .header-a h3{
+        color:white;
+    }
+    .pastEvents{
+        background-color: rgba(0,0,0,0.7);
+        justify-content: center;
+        border:2px solid aqua;
+        border-radius: 10px;
+        margin-top: 50px;
+    }
+    .eventName p{
+        color:white;
+        font-weight: 900;
+        font-size: x-large;
+    }
+    .time_event{
+        color:white;
+        font-weight: 500;
+        font-size: large;
+        letter-spacing: 5px;
+        word-spacing: 5px;
+        line-height: 30px;
+    }
+
+    .pastEvent_content{
+        color:white;
+        font-weight: 400;
+        font-size: medium;
+    }
+    .event_pic{
+        align-self: center;
+    }
+    .event_heading h1{
+        color:#fff;
+        font-weight: bolder;
+
+    }

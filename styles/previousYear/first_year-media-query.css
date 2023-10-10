@@ -1,0 +1,55 @@
+@media screen and (max-width:767px){
+    .at767width100{
+        width:100% !important;
+    }
+    .main_table th{
+        font-size:small !important;
+        font-weight: 500 !important;
+    }
+    #download_year{
+        font-size: small !important;
+     padding-bottom: 10px !important;
+    }
+    .set_height{
+        height:70px !important;
+    }
+    .set_height div{
+        font-size: large !important;
+
+    }
+    .back-image_college{
+
+        height: 100vh;
+       
+        }
+   
+}
+@media screen and (max-width:350px){
+    .main_table th{
+        font-size: small !important;
+    }
+    #download_year{
+        font-size: x-small !important;
+     padding-bottom: 10px !important;
+    }
+    
+}
+
+@media screen and (max-width:425px){
+  
+    .at425shiftright_icon{
+        text-align: right !important;
+    }
+    .at425shiftleft_icon{
+        text-align: left !important;
+    }
+    .set_height div{
+        font-size: medium !important;
+        font-weight: 300 !important;
+
+    }
+    .input-group{
+        width:95%;
+        margin: auto;
+    }
+}

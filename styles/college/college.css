@@ -1,0 +1,281 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+
+.back-image_college{
+
+    height: 80vh;
+    width:100%;
+    background-color: black;
+    
+  
+    }
+   
+    .navbars_college{
+      
+        background-image: linear-gradient(to left,blue,red) !important;
+
+     }
+    .social-media {
+       display:none !important;
+    }
+    .clip_path{
+        height:30vh !important;
+        width: 100% !important;
+        clip-path: polygon(0 0, 100% 0, 100% 0, 0 38%);
+       background-color:black !important;
+      
+    }
+    .class_room_menu{
+        position: absolute;
+        top:22vh;
+        left: 0;
+        height:10vh;
+        background-image: linear-gradient(to left,red,purple);
+        width: 100% !important;
+       justify-self: end;
+    }
+  
+    .class_menu-2 ul{
+float: right;
+position: relative;
+right: 100px;
+z-index: 3;
+    }
+    .class_menu-2{
+        position: relative;
+    }
+    .college_heading span{
+        font-size:medium !important;
+    }
+    .log_in_account{
+position: absolute;
+margin:15px 20px;
+right: 0;
+padding: 8px;
+border: 0;
+outline: none;
+  background-image: linear-gradient(to right,blue,rgb(22, 22, 78));
+        border-radius: 20px;
+        text-align: center;
+        cursor: pointer;
+        color: white;
+        width:85px;
+        height: 44px;
+        font-weight: 600;
+
+    }
+    .log_in_account:hover{
+        background-image: linear-gradient(to right,rgb(20, 20, 224),rgb(22, 22, 78));
+    }
+    .class_menu-2 ul li{
+        display: inline-block;
+margin:15px 10px;
+letter-spacing: 1px;
+
+padding: 10px;
+box-sizing: border-box;
+cursor: pointer;
+    }
+    .bg-set{
+        background-image: linear-gradient(to right,blue,rgb(22, 22, 78));
+        border-radius: 20px;
+        text-align: center;
+    }
+
+    .class_menu-2 ul li{
+        text-decoration: none;
+        color:white;
+        font-weight: 600;
+    }
+  
+    .open_at_hover_tutorials,.open_at_hover_exercise{
+        height: 68vh;
+        width: 100%;
+        background-color: black;
+        position: fixed;
+        top:32vh;
+        display: none;
+        z-index: 3;
+    }
+    #cross,#cross-x{
+        color:white;
+        font-size: 40px;
+        font-weight: 500;
+        position: absolute;
+        right: 20px;
+    }
+    .menu_college_small_screen{
+        display: none !important;
+    }
+
+    /* some text with search bar */
+    .text_college{
+        position: absolute;
+        top:45vh;
+        left:0;
+        width:100%;
+    }
+    .college_heading p{
+        font-family: "Segoe UI",Arial,sans-serif;
+        color:white;
+        font-weight: bolder;
+        text-transform: uppercase;
+        font-size: 29px;
+    }
+  .search_college input{
+    width:70%;
+    margin: auto;
+  }
+  .search_college input{
+    background-image: url('../../images/Alumni/searchIcon.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 100% 0;
+    border-radius: 0;
+  }
+    /* height and width set for all section and bg-color */
+    .previous_year,.one_year,.three_year,.mech{
+        width:100%;
+        height: 80vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+    .common_subject,.two_year,.four_year,.frontEnd{
+        width:100%;
+        height: 80vh;
+        background-color: black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    /* previous year */
+    .heading_previousYear p{
+        font-family: "Segoe UI",Arial,sans-serif;
+        color:white;
+        font-weight: bolder;
+        text-transform: uppercase;
+        font-size: 35px;
+    }
+    .heading_year div p{
+        text-decoration: none;
+        font-family: "Segoe UI",Arial,sans-serif;
+        color:white;
+        font-weight: 300;
+        text-transform: uppercase;
+        font-size: 20px;
+    } 
+
+    .heading_year div{
+        width:300px;
+        height:40px;
+        margin:7px auto;
+        border-radius: 20px;
+       padding-top: 10px;
+       box-sizing: border-box;
+
+    }
+   .even div{
+    background-color: rgb(22, 22, 43);
+    /* text-align: center; */
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+   }
+   .even div:hover{
+    background-color: rgb(39, 39, 80);
+   }
+ 
+
+   .odd div{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+   }
+   .odd div:hover{
+    background-color: rgba(0, 0, 0, 0.747);
+   }
+   .ece .odd div,.civil .odd div,.frontEnd .odd div,.common_subject .odd div{
+    background-color: rgb(220,53,69);
+   }
+
+   .ece .odd div:hover,.civil .odd div:hover,.frontEnd .odd div:hover{
+    background-color: rgb(226, 64, 80);
+   }
+
+   /* test and exercises */
+   .take_test p{
+    font-family: "Segoe UI",Arial,sans-serif;
+    color:white;
+    font-weight: bolder;
+    text-transform: uppercase;
+    font-size: 45px;
+}
+
+.take_test span{
+    font-family: "Segoe UI",Arial,sans-serif;
+  color:black;
+    font-weight:600;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.even-a,.odd-a{
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+
+.exercise_and_quizz .even-a{
+    background-color: black;
+    border-radius: 10px;
+    height: 200px;
+}
+
+.exercise_and_quizz .even-a:hover{
+    background-color: rgb(8, 1, 1);
+    border-radius: 10px;
+    height: 200px;
+}
+.exercise_and_quizz .even-a p,.exercise_and_quizz .odd-a p{
+
+color:white;
+font-family: "Segoe UI",Arial,sans-serif;
+font-weight:600;
+text-transform: uppercase;
+font-size: 25px;
+}
+
+
+
+
+.exercise_and_quizz .odd-a{
+    background-color: rgb(22, 22, 43);
+    border-radius: 10px;
+    height: 200px;
+}
+
+.exercise_and_quizz .odd-a:hover{
+    background-color: rgb(28, 28, 66);
+  
+}
+.footer{
+    margin-top: 0 !important;
+    
+}
+.quizz{
+    padding:50px 0 !important; 
+}
+.previous_year{
+    height: 100vh !important;
+}
+.noneDecoration{
+    text-decoration: none;
+}

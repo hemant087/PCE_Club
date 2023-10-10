@@ -1,0 +1,151 @@
+@media screen and (max-width:590px) {
+   .class_menu-2 ul li{
+display: block !important;
+   } 
+   .class_room_menu{
+    /* height:58vh; */
+   }
+   .class_menu-2 ul{
+    width:100% !important;
+       background-color: black;
+       text-align: center;
+       left:0;
+       top:10vh;
+       height:68vh;
+       display: none;
+}
+.class_menu-2 ul li:hover{
+    font-size: 25px;
+ }
+.menu_college_small_screen{
+    display: block !important;
+    position: absolute;
+margin:15px 20px;
+right: 100px;
+padding: 8px;
+border: 0;
+outline: none;
+  background-image: linear-gradient(to right,blue,rgb(22, 22, 78));
+        border-radius: 20px;
+        text-align: center;
+        cursor: pointer;
+        color: white;
+        width:95px;
+        height: 44px;
+        font-weight: 600;
+}
+}
+
+@media screen and (max-width:767px){
+    .exercise_and_quizz .even-a,.exercise_and_quizz .odd-a{
+      margin-bottom: 30px;
+        height: 100px;
+    }
+
+    .take_test p{
+       
+        font-size: 35px;
+    }
+    
+    .take_test span{
+      
+        font-size: 20px;
+    }
+
+
+}
+
+@media screen and (max-width:425px){
+    .class_room_menu{
+        position: absolute;
+        top:25vh !important;
+        left: 0;
+        height:15vh;
+       
+    }
+    .college_brand{
+        font-size: 17px !important;
+    }
+
+    .college_heading p{
+       
+        font-size: 19px;
+    }
+
+    .college_input div{
+        width:100%;
+       
+    }
+
+    .heading_previousYear p{
+      
+        font-size: 22px;
+        transform: translateX(2%);
+    }
+    .heading_year div p a{
+      
+        font-size:18px;
+      
+    } 
+
+    
+    .heading_year div{
+        width:200px;
+        height:40px;
+        margin:7px auto;
+        transform: translateX(5%);
+     
+
+    }
+    .exercise_and_quizz .even-a,.exercise_and_quizz .odd-a{
+        margin-bottom: 30px;
+          height: 100px;
+          transform: translateX(5%);
+      }
+      .class_menu-2 ul{
+        top:20vh;
+      }
+
+      .previous_year,.one_year,.three_year,.mech{
+       
+        height: 60vh !important;
+       
+    }
+    .common_subject,.two_year,.four_year,.frontEnd{
+   
+        height: 60vh !important;
+       
+    }
+
+    .previous_year{
+        height: 100vh !important;
+    }
+
+    .search_college input{
+        width:95%;
+    }
+    .search_college input::placeholder{
+        font-size: small !important;
+    }
+
+}
+
+@media screen and (max-width:912px) {
+    .navbars_college{
+        height:22vh !important;
+    }
+    .class_room_menu{
+        position: absolute;
+        top:22vh;
+        left: 2px;
+        height:15vh;
+        background-image: linear-gradient(to left,red,purple);
+        width: 100% !important;
+       justify-self: end;
+    }
+}
+@media screen and (max-width:425px) {
+    .navbars_college{
+        height:25vh !important;
+    }
+}

@@ -1,0 +1,97 @@
+@media screen and (max-width:425px){
+    .search_alumni{
+       
+         width:100% !important
+     }
+     .text_color_alumni{
+       text-align: center;
+    }
+    .text_color_alumni h4{
+       font-size:small;
+            }
+            .text_color_alumni h3{
+                font-size:medium;
+                    }
+        
+}
+
+@media screen and (max-width:991px){
+    .alumni-profile img{
+        height: 100px;
+        width:100px;
+    }
+    .alumni-name h4,.alumni-passingYear h4,.contactus h4{
+font-size: medium !important;
+    }
+
+    .alumni-name h3,.alumni-passingYear h3{
+        font-size: large !important;
+            }
+            .icon_of_Alumni_social i{
+             font-size: medium;
+              }
+
+              .text_color_alumni h4{
+                font-size: medium;
+              }
+              .text_color_alumni h3{
+                font-size:large;
+              }
+}
+
+@media screen and (max-width:767px){
+    .alumni-profile img{
+        height: 60px;
+        width:60px;
+    }
+    .alumni-name h4,.alumni-passingYear h4,.contactus h4{
+font-size: small !important;
+    }
+
+    .alumni-name h3,.alumni-passingYear h3{
+        font-size: medium !important;
+            }
+            .icon_of_Alumni_social i{
+             font-size: small;
+              }
+
+              .text_color_alumni h4{
+                font-size: small;
+              }
+              .text_color_alumni h3{
+                font-size:medium;
+              }
+}
+
+@media screen and (max-width:525px){
+    .text_color_alumni{
+        margin-left: 0px !important;
+    }
+
+    .alumni-profile img{
+        height: 100px;
+        width:100px;
+    }
+    .alumni-profile{
+        margin: 30px 0;
+        padding: 0px;
+    }
+    #alumni-box{
+        margin: 0 !important;
+    }
+    .left-alumni{
+        margin-bottom: 0 !important;
+    }
+    .bg_set div h4{
+        font-size: 20px;
+       
+    }
+
+    .search_Alumni input::placeholder{
+        color:black;
+        font-size: small;
+      }
+      .search_Alumni input{
+        width:95%;
+      }
+}

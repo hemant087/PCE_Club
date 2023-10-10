@@ -1,0 +1,170 @@
+
+.back-image_about{
+  
+    background-image:url(../../images/About/about_bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment:fixed;
+    background-size:cover;
+       height:100vh;
+    opacity: 0.9;   
+    position: relative; 
+    overflow: hidden;
+    
+   
+    }
+ 
+    marquee{
+        background: transparent !important;
+        z-index: -1;
+    }
+
+    /* purpose section */
+    .purpose-1 h1{
+        color:white;
+        font-weight: bolder;
+        font-size:39px;
+
+    }
+
+    .purpose-1 blockquote{
+        color:rgb(230, 216, 216);
+        font-weight: bolder;
+        font-size:large;
+        font-weight: 500;
+        background-color:rgba(121, 149, 243, 0.6);
+    }
+    /* benifit */
+    .benifit-1 h3{
+        color:white;
+        font-weight: bold;
+        background-color:rgba(121, 149, 243, 0.6);
+        
+    }
+    /* .benifit-1 ol{
+        list-style-type: none;
+    } */
+    .benifit-1 ol li p{
+        color:rgb(230, 216, 216);
+        font-weight: 700;
+        font-size: medium;
+        
+    }
+
+    .benifit-1 ol li{
+        background-color:rgba(0,0,0, 0.6);
+        margin: 0 !important;
+    }
+    .benifit-1 ol li::marker{
+        font-size: 2rem !important;
+        color:white !important;
+        margin-right: 20px;
+    }
+
+    .about-1_slider_arrow{
+        color:red !important;
+    }
+
+    .slide {
+       
+        background:transparent !important;
+       
+       
+    }
+    .slider_about_content h3{
+        color:white;
+        font-weight: bold;
+        background-color:rgba(121, 149, 243, 0.6);
+    }
+
+    /* location && query */
+    .label_data label{
+        color:white;
+        font-size: larger;
+    }
+    .label_data input,select{
+        border:0 !important;
+        outline:2px solid purple;
+        background: transparent !important;
+        font-size:larger !important;
+        color:purple !important;
+    }
+
+    ::placeholder{
+        color: purple !important;
+    }
+
+    .label_data textarea{
+        background: transparent;
+        color:purple !important;
+        border:0 !important;
+        outline: 2px solid purple !important;
+    }
+
+    .bg_about_form{
+        background-image: linear-gradient(to left,purple,red) !important;
+        color:white;
+        font-size: large;
+        padding: 5px 40px;
+    }
+    .bg_about_form:hover{
+        background-image: linear-gradient(to right,purple,red) !important;
+        color:white;
+    }
+   .youtube iframe{
+    border: 3px solid rgba(121, 149, 243, 1);
+    border-radius: 5px;
+    opacity: 0.5;
+   
+   }
+   /* team member */
+.team_member{
+    margin-bottom: 150px !important;
+}
+   .pic{
+    width:300px;
+    height:300px !important;
+    position: relative;
+    margin: auto;
+    z-index: -1;
+   }
+   .pic img{
+    width:100%;
+    height:100% !important;
+    border:2px solid  rgba(121, 149, 243, 1);
+    border-radius: 10px;
+    
+   }
+   .pic .pic_content{
+position: absolute;
+border-radius: 10px;
+background-color: rgba(0,0,0,0.8);
+width:370px;
+height:200px ;
+bottom:-95px;
+left:-40px;
+box-shadow: -10px 10px 90px rgb(18, 18, 53);
+cursor: pointer;
+
+
+   }
+   .pic .pic_content h1,h5{
+    color:white;
+  
+   }
+   .pic .pic_content h5{
+   font-weight: lighter;
+  
+   }
+   .connect_withUs a{
+    display: inline-block !important;
+    color:green;
+    font-size: 17px;
+   }
+   .connect_withUs i:hover{
+    color:red;
+   }
+   .team_about{
+    justify-content: space-between;
+ 
+   }

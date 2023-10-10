@@ -1,0 +1,65 @@
+.back-image_college{
+
+    height: 90vh;
+   
+    
+  
+    }
+
+.table_pyq{
+    border:1px solid white;
+    color:white;
+}
+.table_pyq tr td{
+    cursor: pointer !important;
+    font-size: 25px;
+    text-decoration: none;
+}
+.icon_pyq a i{
+    color:white !important;
+    font-size: 30px;
+   
+}
+.pyq_subject a{
+    text-decoration: none;
+}
+.pyq_subject{
+    border:1px solid white;
+    color:white;
+    height:400px;
+    
+    overflow-y: scroll;
+}
+.main_table th{
+    font-size: 27px !important;
+}
+.pyq_subject div{
+   
+    color:white;
+    font-size: 25px;
+    font-weight: 600;
+}
+.set_height{
+    height: 90px !important;
+    margin:10px 0 !important;
+}
+.at425shiftright_icon{
+    text-align: center;
+}
+
+#branch{
+    font-size: 15px;
+}
+#download_year{
+    font-size: medium !important;
+ padding-bottom: 15px;
+}
+
+.input-group{
+    width:70%;
+    margin: auto;
+}
+#button-addon2{
+    background-image: linear-gradient(to left ,purple,red);
+    color:white;
+}
