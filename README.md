@@ -38,7 +38,7 @@ If you have a suggestion that would make this better, please fork the repo and c
 
 ## Demo
 
-https://vishal7547.github.io/PCE-CLUB/
+https://hemant087.github.io/PCE_Club/
 
 
 ## 🚀 About Me
