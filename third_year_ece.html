@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pce,Purnea Club Association/Alumni</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles/home.css">
+    <link rel="stylesheet" href="styles/media-query-navbar.css">
+    <link rel="stylesheet" href="styles/media-query-event_homePage.css">
+    <link rel="stylesheet" href="styles/media-query-about-homePage.css">
+  <link rel="stylesheet" href="styles/gallery/gallery.css">
+  <link rel="stylesheet" href="styles/gallery/gallery_media_query.css">
+ <link rel="stylesheet" href="styles/college/college.css">
+ <link rel="stylesheet" href="styles/college/college-media-query.css">
+ <link rel="stylesheet" href="styles/previousYear/first_year.css">
+ <link rel="stylesheet" href="styles/previousYear/first_year-media-query.css">
+ <link rel="stylesheet" href="styles/ECE/third_year_ece.css">
+</head>
+<body>
+    <section class="header">
+        <div class="container-fluid g-0 back-image_college">
+          
+            <div class="navbars navbars_college">
+              
+                <a href="index.html" style="text-decoration: none;">
+                    <div class="logos">
+                    
+                        <img src="images/threed-logo.png" alt="">
+                        <span class="b college_brand"> PCE,PURNEA  <br>  CLUB ASSOCIATION</span>
+                    </div>
+                </a>
+                <label for="check"> 
+                    <div class="bars menu_Symbol">
+                        <svg xmlns="http://www.w3.org/2000/svg"
+                        width="30" height="30" fill="White"
+                         class="bi bi-list" viewBox="0 0 16 16">
+                           <path fill-rule="evenodd"
+                            d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+                         </svg>
+                    </div>
+                </label>
+                    <input type="checkbox" id="check" onclick="tryDo()" style="display: none;">
+             
+                
+                
+                <div class="menu" id="open">
+    
+    
+                
+                    <ul>
+                        <li>
+                            <a href="index.html">HOME</a>
+                        </li>
+                        <li>
+                            <a  href="about.html" target="_blank">ABOUT</a>
+                        </li>
+                        <li>
+                            <a  href="event.html">EVENT</a>
+                        </li>
+                        <li>
+                            <a  href="alumni.html">ALUMNI</a>
+                        </li>
+                        <li>
+                            <a  href="college.html">Class Room</a>
+                        </li>
+                        <li>
+                            <a  href="gallery.html">GALLERY</a>
+                        </li>
+                        <li>
+                            <a  href="#">MORE</a>
+                        </li>
+                        <li class="btn-join" onclick="alert('update soon')">
+                            <a  href="#">JOIN NOW</a>
+                        </li>
+                        
+                    </ul>
+                    <div class="social-media_menu">
+                        <ul>
+                            <li>
+                               <a href=""> <i class="bi bi-facebook" style="color:blue ;"></i></a>
+                            </li>
+                            
+            
+                            <li>
+                                <a href="8877632187"> <i class="bi bi-chat" style="color:green;"></i></a>
+                            </li>
+            
+            
+                            <li>
+                               <a target="_blank" href="https://www.instagram.com/pce_purnea_unofficial/?igshid=ZDdkNTZiNTM%3D"> <i class="bi bi-instagram" style="color:red ;"></i></a>
+                            </li>
+                            <li>
+                              <a href="#">  <i class="bi bi-linkedin" style="color:greenyellow ;"></i></a>
+                            </li>
+                            <li>
+                               <a href=""> <i class="bi bi-twitter" style="color:lightskyblue;"></i></a>
+                            </li>
+                           
+                        </ul>
+                    </div>
+                </div>
+               <!-- menu for class room -->
+               <div class="row g-0  justify-content-between class_room_menu">
+               
+                  
+                <div class="class_menu-2 col-12">
+                 <button class="menu_college_small_screen" id="collegeMenu">
+                     MENU 
+                     <i class="bi bi-caret-down-fill" id="menu_iconSmallScreen"></i>
+                 </button>
+                 <button class="log_in_account">LOG IN</button>
+                 <ul>
+                   
+                     <li class="menuTutorials">
+                         TUTORIALS
+                         <i class="bi bi-caret-down-fill" id="menu_iconTutorials"></i>
+                     </li>
+                     <li class="menuTutorials">
+                         EXERCISES
+                         <i class="bi bi-caret-down-fill" id="menu_iconExercise"></i>
+                    </li>
+                     <li class="bg-set">SIGN UP</li>
+                     <!-- <li class=""><a href="">LOG IN</a></li> -->
+                 </ul>
+                </div>
+                 <!-- open_at_hover_exercise -->
+                 <div class="open_at_hover_exercise" id="open_at_hover_exercise">
+                     <span id="cross" onclick="cross_ex()">X</span>
+                    </div>
+     
+                      <!-- open_at_hover_tutorials -->
+                      <div class="open_at_hover_tutorials" id="open_at_hover_tutorials">
+                         <span id="cross-x" onclick="cross_tu()">X</span>
+                        </div>
+              
+            </div>
+              <!--some text with search bar -->
+              <div class="text_college row  g-0">
+    <div class="row college_heading text-center">
+        <p>
+            Hello Engineer, What Do You Want To Learn?
+        </p>
+        <p id="branch">Search by subject or semester name</p>
+        
+        <!-- <span>downoad previous year questions</span> -->
+        <span>With the india largest site</span>
+    </div>
+    <div class="row college_input">
+        <div class="input-group mb-3 ">
+            <input type="text" class="form-control" placeholder="Linear control system,Digital signal processing..." aria-label="Recipient's username" aria-describedby="button-addon2" id="subject_search">
+            <button class="btn btn-outline-secondary" type="button" id="button-addon2">Search</button>
+          </div>
+    </div>
+              </div>
+    
+            </div>
+    
+                
+            
+              
+                
+    
+    
+         </div>
+         <!-- social media -->
+         <div class="social-media">
+            <ul>
+                <li>
+                   <a href=""> <i class="bi bi-facebook" style="color:blue ;"></i></a>
+                </li>
+                
+    
+                <li>
+                    <a href=""> <i class="bi bi-chat" style="color:green;"></i></a>
+                </li>
+    
+    
+                <li>
+                   <a target="_blank" href="https://www.instagram.com/pce_purnea_unofficial/?igshid=ZDdkNTZiNTM%3D"> <i class="bi bi-instagram" style="color:red ;"></i></a>
+                </li>
+                <li>
+                  <a href="#">  <i class="bi bi-linkedin" style="color:greenyellow ;"></i></a>
+                </li>
+                <li>
+                   <a target="_blank" href="https://twitter.com/pce_purnea"> <i class="bi bi-twitter" style="color:lightskyblue;"></i></a>
+                </li>
+               
+            </ul>
+        </div>
+    </div>
+    <div class="clip_path">
+        <!-- clip path css used -->
+    </div>
+    </section>  
+<section class="courses">
+    <div class="container">
+        <div class="row heading">
+            <h1>COURSES</h1>
+        </div>
+        <div class="row my-3 justify-content-center" id="courses_ece">
+           <!-- fetch data from third_year.js -->
+            
+        </div>
+    </div>
+</section>
+<section class="footer college-footer">
+    <div class="container-fluid">
+        <div class="row text-center footer-heading">
+            <span>Stay up to date on Pce club events and free workshops surrounding tech, startups,innovation and many more </span>
+        </div>
+        <div class="row text-center justify-content-center">
+        <div class="col-md-7 at767centerinput">
+
+                <div class="input-group mb-3">
+                    <input type="text" class="form-control" placeholder="Recipient's username" aria-label="Recipient's username" aria-describedby="button-addon2">
+                    <button class="btn btn-outline-secondary footer-btn" type="button" id="button-addon2">Button</button>
+              </div>
+              
+        </div>
+
+      
+        
+        </div>
+        <div class="row mt-3 lower-footer justify-content-center">
+            <div class="col-md-4 text-center first-footer-sec mt-1">
+<img src="images/pceClub-logo.png" alt="">
+
+<h5>Pce Purnea <br> Club Association</h5>
+
+
+    <button type="button" class="btn btn-primary mt-3">Donate Us</button>
+<button type="button" class="btn btn-primary mt-3">Join Now</button>
+
+            </div>
+            <div class="col-md-2 text-center">
+                <div class="row text-start address footerat-667pxCenter">
+                    <span class="d-block at767noneadd">Address</span>
+                     <div class="row mt-2 address-1s">
+                        <div class="col-1">
+                            <i class="bi bi-buildings-fill"></i>
+                            
+                        </div>
+                        <div class="col-7">
+<p>
+    Purnea college of engineering
+<br>
+purnea,812003
+</p>
+                        </div>
+                     </div>
+
+
+
+                     <div class="row mt-2 address-2s">
+                        <div class="col-1">
+                           
+                            <i class="bi bi-envelope-at-fill m-auto"></i>
+                            <i class="bi bi-phone-fill"></i>
+                            <i class="bi bi-whatsapp"></i>
+                            <i class="bi bi-chat"></i>
+                        </div>
+                        <div class="col-7 footer-contacts footerat-667pxCenter">
+<p>email</p>
+<p class="mt-4">phone</p>
+<p class="mt-4">wwhatsapp</p>
+<p class="mt-4">club chat</p>
+                        </div>
+                     </div>
+
+                </div>
+               
+            </div>
+            <div class="col-md-2  footer-third-sec footerat-667pxCenter">
+               
+                <ul>
+
+                    <h3>
+                        checkout
+                    </h3>
+
+                    <li>
+                        <a href="#">HOME</a>
+                    </li>
+                    <li>
+                        <a  href="#">ABOUT</a>
+                    </li>
+                    <li>
+                        <a  href="#">EVENT</a>
+                    </li>
+                    <li>
+                        <a  href="#">ALUMNI</a>
+                    </li>
+                    <li>
+                        <a  href="#">STUDY MATERIAL</a>
+                    </li>
+                    <li>
+                        <a  href="#">GALLERY</a>
+                    </li>
+                    <li>
+                        <a  href="#">MORE</a>
+                    </li>
+                   
+                    
+                </ul>
+            </div>
+            <div class="col-md-4  footerat-667pxCenter">
+                <div class="row connect">
+                    <span>connect with us</span>
+                </div>
+
+                <div class="row footer-social-media">
+                    <ul>
+                        <li>
+                           <a href=""> <i class="bi bi-facebook" style="color:blue ;"></i></a>
+                        </li>
+                        
+        
+                        <li>
+                            <a href=""> <i class="bi bi-chat" style="color:green;"></i></a>
+                        </li>
+        
+        
+                        <li>
+                           <a href=""> <i class="bi bi-instagram" style="color:red ;"></i></a>
+                        </li>
+                        <li>
+                          <a href="#">  <i class="bi bi-linkedin" style="color:greenyellow ;"></i></a>
+                        </li>
+                        <li>
+                           <a href=""> <i class="bi bi-twitter" style="color:lightskyblue;"></i></a>
+                        </li>
+                       
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    </section>
+    
+<!-- bootstrap link -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous"></script>
+
+
+<!-- js link for about us -->
+<script src="event/colleges/college.js"></script>
+<script src="event/navbars.js"></script>
+<script src="event/ECE/third_year_ece.js"></script>
+<script src="event/previous_years/first_year.js"></script>        
+</body>
+</html>
